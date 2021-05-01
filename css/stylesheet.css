@@ -12,6 +12,51 @@ body {
     font-family: 'helvetica-compressed', sans-serif;
 }
 
+/* Navbar CSS */
+/* -VirenderNayal */
+
+.navbar{
+    line-height: 15px;
+    background-color: transparent;
+}
+
+.logo{
+    position: absolute;
+    top : 1.5rem;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    float:right;
+    margin-right: 50px;
+}
+
+.nav-item{
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.list-link{
+    text-decoration: none;
+    color: white;
+}
+
+.image{
+   width: 60px;
+   height: 60px;
+   margin-left: 50px;
+   border: 2px solid white;
+   border-radius: 30px;
+   transition: transform ease-in-out 0.5s;
+}
+
+.image:hover{
+    transform: scale(1.5);
+}
+
+/* <========================================> */
+
 .header {
     background: linear-gradient(to right, rgba(20, 30, 48, 0.7) , rgba(36, 59, 85, 0.7)),url(../img/headerBack.gif);
     background-size: cover;
@@ -46,6 +91,9 @@ body {
     padding-bottom: 0%;
     font-size: 250px;
     letter-spacing: 20px;
+    /* added by virender nayal */
+    margin-top: -60px;
+    font-family: 'Poppins', sans-serif;
 }
 .second-heading{
     font-family: 'Poppins', sans-serif;
@@ -247,7 +295,7 @@ body {
   z-index: 2;
 }
 
-.valorant{
+.games{
     height: 120vh;
     width: 100%;
     display: flex;
